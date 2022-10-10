@@ -1,1 +1,1 @@
-web: gunicorn templates\__init__:app
+web: gunicorn python __init__.py
